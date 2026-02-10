@@ -10,9 +10,13 @@
 ## OOP - Inheritance
 
 • Purpose: reuse existing code
+
 • Reusable class is generic
+
 • By inheriting some class, the
-subclass gets: Properties and methods from the
+subclass gets: 
+
+properties and methods from the
 super class that are "public" or "protected"
 
 Example:
@@ -42,9 +46,11 @@ class Dog(Animal):
 
 Example:
 Animal is an abstract class
+
 Cat is Non-abstract, concrete class
 
 • Abstract class can have methods with
 implementations in them: difference to interfaces here is that
 interfaces can’t have implementations.
+
 • Defining abstract class means that developer may not create instance directly from it.
