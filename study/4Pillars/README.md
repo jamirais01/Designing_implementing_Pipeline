@@ -164,3 +164,39 @@ The __balance attribute is hidden from outside code. You can only change it thro
 [vocabularyOOP2][def]
 
 [def]: ./vocabularyOOP2.png
+
+# SUMMARY
+
+1. Inheritance – Reuse & Extend
+
+Why we need it:
+Inheritance lets you create a new class based on an existing class. This means you can reuse code (avoid writing the same thing again) and add or change features without modifying the original.
+Example: If you have a general Vehicle class, you can make Car and Bike inherit from it – they automatically get common properties like speed and move(), saving you time and keeping things consistent.
+
+2. Abstraction – Hide Complexity & Focus on Essentials
+
+Why we need it:
+Abstraction hides complex implementation details and shows only the essential features of an object. This reduces complexity and makes it easier to use objects without knowing how they work internally.
+Example: When you use a Car object, you just call start(), drive(), stop(). You don’t need to know how the engine, fuel system, or electronics work. Abstraction lets you focus on what an object does, not how.
+
+3. Polymorphism – Flexibility & Common Interface
+
+Why we need it:
+Polymorphism allows different classes to be treated as the same type, and the same method name can behave differently depending on the object. This makes code more flexible and easier to extend.
+Example: You can write a function that expects an object with a speak() method. It will work with a Dog, Cat, or Bird – each making its own sound. You don’t need to change the function when you add a new animal.
+
+4. Encapsulation – Protect & Control
+
+Why we need it:
+Encapsulation bundles data and methods inside a class and hides the internal details from outside. This prevents accidental or unauthorized changes to important data. You expose only what’s necessary (like getters/setters) and keep the rest private.
+Example: A BankAccount class keeps the balance hidden. You can only change it through deposit() or withdraw() methods, which can check for valid amounts – so your data stays safe.
+
+These pillars work as a team:
+
+- Inheritance helps you build on existing code.
+
+- Encapsulation keeps your code safe from misuse.
+
+- Polymorphism lets your code work with many types seamlessly.
+
+- Abstraction simplifies how you interact with objects.
