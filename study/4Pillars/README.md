@@ -92,5 +92,5 @@ print(rect.area())                  # 15
 print(circ.area())                   # 12.56
 
 ```
-# *How it shows abstraction:
+### How it shows abstraction:
 Shape is an abstract class that defines what a shape should do (area()) but not how. The subclasses provide the concrete implementation. Users of Rectangle or Circle just call area() without worrying about the formula inside.
