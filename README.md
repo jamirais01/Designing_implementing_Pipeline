@@ -6,4 +6,5 @@ The repository is organized into different folders, each representing its relate
 **The contents include folders:**
 
 * Python Programming Tasks
+* Study 
 
