@@ -155,4 +155,9 @@ print(account.get_balance())           # 1500
 ```
 
 How it shows encapsulation:
-The __balance attribute is hidden from outside code. You can only change it through the controlled deposit method, and read it via get_balance(). This protects the data from being set to an invalid value
+The __balance attribute is hidden from outside code. You can only change it through the controlled deposit method, and read it via get_balance(). This protects the data from being set to an invalid value.
+
+Refer:
+
+[def]: ./vocabularyOOP1.png
+[def]: ./vocabularyOOP2.png
