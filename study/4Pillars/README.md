@@ -162,4 +162,5 @@ The __balance attribute is hidden from outside code. You can only change it thro
 [def]: ./vocabularyOOP1.png
 
 [vocabularyOOP2][def]
+
 [def]: ./vocabularyOOP2.png
