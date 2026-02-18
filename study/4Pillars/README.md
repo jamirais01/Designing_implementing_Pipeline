@@ -40,6 +40,9 @@ class Dog(Animal):
   def __init__(self) -> None:
      super().__init__("Wuff!")
      return None
+
+Cat().makeSound() # Meow!
+Dog().makesound() # Who let the dogs out!
 ```
 
 ## OOP - Abstraction
